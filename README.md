@@ -1,2 +1,2 @@
 # spacehorn-router
-Router for Spacehorn uwing the Spacehorn routes convention
+Router for Spacehorn using the Spacehorn routes convention
