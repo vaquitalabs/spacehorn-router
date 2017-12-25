@@ -1,0 +1,30 @@
+{
+  "name": "spacehorn-router",
+  "version": "0.0.1",
+  "description": "Router for Spacehorn using the Spacehorn routes convention",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaquitalabs/spacehorn-router.git"
+  },
+  "keywords": [
+    "spacehorn",
+    "router"
+  ],
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "author": "marcosn <marcos@aftertype.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaquitalabs/spacehorn-router/issues"
+  },
+  "homepage": "https://github.com/vaquitalabs/spacehorn-router#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "jest": "^22.0.4"
+  }
+}
