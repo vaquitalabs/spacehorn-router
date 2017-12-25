@@ -13,14 +13,14 @@ const buildRoute = (controllersPath, route) => {
     basicMethods.forEach(mthd => {
       sourceRoutes.push({
         path: sourcePath,
-        method,
+        method: mthd,
         exec: requireRouteController([controllersPath, id, mthd]),
       })
     })
     modifierMethods.forEach(mthd => {
       sourceRoutes.push({
         path: `${sourcePath}/:id`,
-        method,
+        method: mthd,
         exec: requireRouteController([controllersPath, id, mthd]),
       })
     })
